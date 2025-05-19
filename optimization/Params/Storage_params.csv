@@ -1,0 +1,5 @@
+StorageTechnology,EnergyCAPEX($/kWh),PowerCAPEX($/kW),Round-tripEfficiency,FOM,lifetime,DecayRate,duration(hr),Nameplate capacity (MWh)
+Li-ion,322,299,0.85,40,15,1.00E-05,4,240
+Metal air-low cost,100,595000,0.7,14900,25,1.00E-05,0,
+Metal air-medium cost,2400,643000,0.73,16100,25,1.00E-05,0,
+Metal air-high cost,3600,950000,0.72,23700,25,1.00E-05,0,

@@ -1,0 +1,6 @@
+plant_type,CAPEX($/kw),FOM($/kW-yr),VOM($/MWh),HeatRate(MMBtu/MWh),Lifetime(year),MinOutput(%),CapacityDensity(MW/m2)
+CCGT,1248,31,1.96,6.363,20,0.5,
+solar-UPV,1291,23,0,0,30,0,24
+wind-onshore,1363,30,0,0,30,0,3.1158
+wind-offshore,3871,118,0,0,30,0,
+ng,0,66,4.75,7.27,10,5.00E-01,
