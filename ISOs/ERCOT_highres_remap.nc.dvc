@@ -1,0 +1,5 @@
+outs:
+- md5: d8a65b774678f46bf9426ff8b6b90594
+  size: 146820
+  hash: md5
+  path: ERCOT_highres_remap.nc
