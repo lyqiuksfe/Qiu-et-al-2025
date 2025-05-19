@@ -1,0 +1,25 @@
+name: qiu-2025-energy-modeling-py
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - ipykernel
+  - nbconvert
+  - jupyter
+  - xarray
+  - python-cdo
+  - matplotlib
+  - scipy
+  - cartopy
+  - seaborn
+  - geocat-viz
+  - pymannkendall
+  - cmaps
+  - pip
+  - python=3.10
+  - setuptools
+  - pip:
+      - numpy
+      - gurobipy
+      - scikit-learn
+      - tell

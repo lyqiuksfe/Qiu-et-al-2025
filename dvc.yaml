@@ -1,0 +1,27 @@
+stages:
+  download-data:
+    cmd: calkit xenv -n py -- python scripts/download-data.py
+    deps:
+      - scripts/download-data.py # TODO: Write script
+    outs:
+      - data
+  cf-remap:
+    cmd: calkit xenv -n py -- python step1_cf_remap.py
+    deps:
+      - step1_cf_remap.py # TODO: Add data dependencies
+    # TODO: Add output file paths
+  demand-tell:
+    cmd: >
+      calkit xenv -n py --
+      jupyter nbconvert --to notebook --execute --inplace
+      step2_demand-tell.ipynb
+    deps:
+      - step2_demand-tell.ipynb # TODO: Add data dependencies
+    # TODO: Add output file paths
+  # TODO: Add optimization stages
+  word-to-pdf:
+    cmd: calkit office word-to-pdf paper.docx -o paper.pdf
+    deps:
+      - paper.docx
+    outs:
+      - paper.pdf

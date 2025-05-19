@@ -1,0 +1,13 @@
+owner: petebachant
+name: qiu-2025-energy-modeling
+title: Accounting for climate projections in energy system modeling
+description: ''
+git_repo_url: https://github.com/petebachant/qiu-2025-energy-modeling
+environments:
+  py:
+    path: environment.yml
+    kind: conda
+publications:
+  - path: paper.pdf
+    stage: word-to-pdf
+    title: TODO
